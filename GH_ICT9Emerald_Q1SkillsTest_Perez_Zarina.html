@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 Skills Test</title>
+	<link rel="stylesheet" type="text/css" href="styles_Q1SkillsTest.css">
+
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<form>
+
+	<p><img src="logo.jpg"></p>
+	<h1 class="titillium-web-bold"><u>OBMC Robotics Club Application</u></h1>
+	<br>
+	<p class="titillium-web-regular">OBMC welcomes its first ever Robotics Club for SY 25-26! If you are interested to become a member, please will out this form to apply. Details for the qualifying exam will be posted soon.</p>
+
+	<fieldset>
+
+		<legend class="titillium-web-bold"> Application Form </legend>
+		
+		<!-- text -->
+		<label for="fullname" class="titillium-web-semibold"> Full Name: </label>
+		<input type="text" name="fullname" placeholder="Dela Cruz, Juan A.">
+		<br>
+
+		<label for="email" class="titillium-web-semibold"> Email: </label>
+		<input type="text" name="email" placeholder="delacruz.ja@obmontessori.edu.ph">
+		<br>
+
+		<!-- dropdown -->
+		<label for="level" class="titillium-web-semibold"> Grade Level: </label>
+		
+		<select name="level">
+			<option value="select">Select</option>
+			<option value="7">Grade 7</option>
+			<option value="8">Grade 8</option>
+			<option value="9">Grade 9</option>
+			<option value="10">Grade 10</option>
+		</select>
+		<br>
+		<br>
+
+		<!-- radio -->
+		<label for="section" class="titillium-web-semibold">Section</label><br>
+
+		<input type="radio" name="section" value="emerald">
+		<label class="titillium-web-regular">Emerald</label>
+
+		<input type="radio" name="section" value="ruby">
+		<label class="titillium-web-regular">Ruby</label>
+
+		<input type="radio" name="section" value="sapphire">
+		<label class="titillium-web-regular">Sapphire</label>
+
+		<input type="radio" name="section" value="topaz">
+		<label class="titillium-web-regular">Topaz</label>
+		<br>
+		<br>
+
+		<!-- checkbox -->
+		<label for="skills" class="titillium-web-semibold"> What are your ICT Skills? </label>
+		<br>
+
+			<input type="checkbox" name="skills" value="programming">
+			<label class="titillium-web-regular">Computer Programming</label><br>
+
+			<input type="checkbox" name="skills" value="coding">
+			<label class="titillium-web-regular">Website Coding</label><br>
+
+			<input type="checkbox" name="skills" value="designing">
+			<label class="titillium-web-regular">Graphic Designing</label><br>
+
+			<input type="checkbox" name="skills" value="creation">
+			<label class="titillium-web-regular">Document Creation</label><br>
+
+			<input type="checkbox" name="skills" value="operation">
+			<label class="titillium-web-regular">Electronic Operation</label><br>
+			<br>
+
+		<!-- text area -->
+		<label for="why" class="titillium-web-semibold"> Why are you interested in joining? </label><br>
+
+		<textarea cols="50" rows="5" placeholder="I want to join because..."></textarea>
+
+	</fieldset>
+
+	<fieldset>
+		
+		<legend class="titillium-web-bold">Other Details</legend>
+
+		<h4 class="titillium-web-bold"> Objectives in the Robotics Club </h4>
+
+		<ul>
+			<li class="titillium-web-regular"> To further develop skills such as Programming, Coding, and Designing. </li>
+			<li class="titillium-web-regular"> To gain more experience in activities in the technological field. </li>
+			<li class="titillium-web-regular"> To learn about the significance of technology in our generation. </li>
+		</ul>
+
+		<h4 class="titillium-web-bold"> Requirements for Club Application </h4>
+
+		<ol>
+			<li class="titillium-web-regular"> 90 or above grade in the ICT subject</li>
+			<li class="titillium-web-regular"> 85 or above grades in report card </li>
+			<li class="titillium-web-regular"> No current membership in other non-academic clubs </li>
+			<li class="titillium-web-regular"> ICT  Qualifying Exam (details TBA)</li>
+		</ol>
+
+		<h4 class="titillium-web-bold"> Activities for SY 25-26 </h4>
+
+		<dl>
+
+			<dt class="titillium-web-regular"> Robotics Fair </dt>
+			<dd class="titillium-web-regular"> - An end-of-year experience where students will show their finished robotics project to the rest of the school </dd>
+			<br>
+
+			<dt class="titillium-web-regular"> Inter-Campus Robotics Competition </dt>
+			<dd class="titillium-web-regular"> - A competition where the robotics team of each campus will showcase their programming skills in developing applications. </dd>
+			<br>
+
+		</dl>
+
+		<h4 class="titillium-web-bold">Helpful Links</h4>
+
+		<ul>
+			<li><a href="https://www.idtech.com/blog/should-your-child-join-a-robotics-team"> What Do You Do in a Robotics Club?</a></li>
+			<li><a href="https://kb.roboticseducation.org/hc/en-us/articles/8375807804183-Your-Kid-Just-Joined-a-Robotics-Team-What-Does-That-Mean"> What Does it Mean to Join a Robotics Club?</a></li>
+		</ul>
+
+
+	</fieldset>
+	<br>
+
+	<input type="submit" value="Submit Form">
+	<input type="button" value="Reset Form">
+
+</form>
+
+</body>
+</html>

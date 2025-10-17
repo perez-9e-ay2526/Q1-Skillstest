@@ -1,0 +1,60 @@
+body{
+	background-image: url("https://media.istockphoto.com/id/1345364678/video/future-ai-tech-machine-learning-face-outline-circuit-board-and-binary-data-flow-on-blue-loop.jpg?s=640x640&k=20&c=Xs-hxE0pflsiq-pefn0GrKGZ39UEB2Gjy1dIuYrk7gg=");
+}
+h1{
+	color: midnightblue;
+	text-align: center;
+}
+h4{
+  color: paleturquoise;
+}
+p{
+	color: ghostwhite;
+	text-align: center;
+}
+label{
+	color: paleturquoise;
+}
+legend{
+  color: midnightblue;
+}
+li{
+  color: ghostwhite;
+}
+dt{
+  color: ghostwhite;
+}
+dd{
+  color: ghostwhite;
+}
+form{
+  margin: auto;
+  width: 70%;
+  padding: 15px;
+  background-color: steelblue;
+  border-radius: 30px;
+}
+fieldset{
+  border-radius: 15px;
+}
+img{
+  width: 150px;
+  text-align: center;
+  border-radius: 100px;
+}
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: ghostwhite;
+}
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.titillium-web-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
